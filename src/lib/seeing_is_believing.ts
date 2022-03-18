@@ -118,7 +118,7 @@ const configuration = (key: string) =>
   workspace.getConfiguration("seeing-is-believing").get(key);
 
 const SeeingIsBelieving = {
-  command: "seeing_is_believing",
+  command: "andyw8_seeing_is_believing",
   args: function(command: string) {
     switch (command) {
       case "run":
